@@ -424,7 +424,7 @@ example as above, the code below could be used.
 
         // validate message
         if (config.message){
-            if (!(config.message instanceof Integer)){
+            if (!(config.message instanceof String)){
                 error """
                 message parameter must be a String, received [${config.message}]
                 --
